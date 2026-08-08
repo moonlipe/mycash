@@ -1,0 +1,5 @@
+# esquema
+npx wrangler d1 export mycash-prod --no-data --output=scripts/mycash-schema.sql --remote --config apps/api/wrangler.toml
+
+# dados
+npx wrangler d1 export mycash-prod --output=scripts/mycash-full.sql --remote --config apps/api/wrangler.toml
